@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+.parent{
+    width: 700px;
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/image/cup-of-coffee-1280537_1920.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    overflow: hidden;
+   
+}
+.parent h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.child1{
+    
+    border: 2px solid rgb(243, 4, 4);
+    padding: 25px;
+    background:linear-gradient(rgb(249, 247, 247),rgb(0,0,0));
+    margin: 25px;
+    text-align: justify;
+}
+.child2{
+    border: 1px solid green;
+    margin: 50px 25px;
+    padding: 20px 40px;
+
+}
+.child3{
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+
+} */
+.container p {
+    margin: 10px;
+    line-height: 2rem;
+    text-align: center;
+}
+.pic1{
+    vertical-align: middle;
+}
+.pic2{
+    vertical-align: baseline;
+}
+.pic3{
+    vertical-align: sub;
+}
+.pic4{
+    vertical-align: super;
+}
+.icon{
+    text-align: center;
+}
+#facebook,#twitter,#linkedin,#instagram{
+    margin: 5px;
+    font-size: 25px;
+}
+#facebook:hover,#twitter:hover,#linkedin:hover,#instagram:hover{
+    color: rgb(39, 238, 13);
+    font-size: 32px;
+    transform:rotate(360deg);
+    transition: 0.5s;
+}
+
