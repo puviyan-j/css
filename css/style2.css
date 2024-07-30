@@ -12,9 +12,10 @@ body {
         'nav nav'
         'asaid content1'
         'asaid content2'
-        'footer footer';
+        'footer footer'
+        'photo photo';
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 50px 50px 0.75fr 2fr 50px;
+    grid-template-rows: 50px 50px 0.75fr 2fr 50px auto;
     padding: 5px;
     margin: 0 10%;
 
@@ -112,6 +113,9 @@ ul li a:hover {
     background-color: black;
     border-radius: 5px;
 }
+.photo{
+    grid-area: photo;
+}
 
 .logo {
     padding: 5px;
@@ -124,4 +128,7 @@ ul li a:hover {
 
 .logo a:visited {
     color: #ffff;
+}
+.myn{
+    width: 100%;
 }
